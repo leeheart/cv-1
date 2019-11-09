@@ -1,7 +1,7 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
-let string = `/* 你好，我是一名前端新人
- * 下面来展示一下我的功底
+let string = `/* 你好，我叫李贺
+ * 下面我来展示一下我的功底
  * 首先准备一个div */
 #div1{
   width: 200px;
@@ -63,7 +63,7 @@ let step = () => {
     if (n < string.length) {
       step();
     }
-  }, 0);
+  }, 100);
 };
 
 step();
