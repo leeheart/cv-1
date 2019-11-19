@@ -1,7 +1,7 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
-let string = `/* 你好，我是李贺
- * 接下来我将展示一下我的前端技术水平
+let string = `/* 你好，我叫李贺
+ * 接下来我将展示一下我的前端开发技能
  * 首先准备一个div */
 #div1{
   width: 200px;
@@ -60,7 +60,7 @@ let step = () => {
     html.scrollTo(0, 99999)
     style.innerHTML = string.substring(0, n+1);
     n += 1;
-    if (n < string.length) {
+    if (n < string.length) { 
       step();
     }
   }, 50);
